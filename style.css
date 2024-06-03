@@ -1,0 +1,11 @@
+/* style for image gallery */
+.gallery {  /*div layout*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .gallery img { /*image styling*/
+    width:100%;
+    height:auto;
+  }
